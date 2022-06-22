@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   background: linear-gradient(
@@ -22,11 +22,13 @@ export const Wrapper = styled.div`
     }
   }
 `;
+
 export const Content = styled.div`
   padding: 20px;
   max-width: var(--maxWidth);
   margin: 0 auto;
 `;
+
 export const Text = styled.div`
   z-index: 100;
   max-width: 700px;
